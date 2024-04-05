@@ -1,0 +1,43 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Color de fondo */
+  color: rgba(255, 255, 255, 0); /* Color del texto */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menuIcon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s; /* Transición suave para el color del texto */
+}
+
+a:hover {
+  color: #0515a0; /* Color del texto al pasar el cursor */
+}
