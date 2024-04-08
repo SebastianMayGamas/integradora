@@ -1,0 +1,129 @@
+/*body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #3b5998;
+    color: white;
+}
+
+.NavBar a {
+    color: white;
+    text-decoration: none;
+}
+*/
+
+/* Establece la imagen de fondo y ajusta su tamaño y posición */
+.homePage {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    width: 100vw; /* Establece el ancho al 100% del viewport */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    background-image: url('/Users/stacy/Downloads/dog.jpg');
+    background-size: cover; /* Cubre toda la pantalla */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed; /* Permite que la imagen de fondo permanezca fija */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Asegura que la imagen esté detrás del contenido */
+    overflow-y: auto; /* Permite desplazarse verticalmente si el contenido es más largo que la pantalla */
+}
+
+/* Ajusta el contenido para que se muestre correctamente sobre la imagen de fondo */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.7); /* Añade un fondo semi-transparente para mejorar la legibilidad */
+    color: #333;
+}
+
+/* Resto de tus estilos */
+
+
+/* ... (el resto de tus estilos) ... */
+
+
+header {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 20px 0;
+    background-color: #81488f;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Resto de tus estilos */
+
+.feed {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.post {
+    width: 100%; /* Opcional: ajusta el ancho de los posts al 100% del contenedor */
+    max-width: 600px; /* Establece un ancho máximo para los posts */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+/* Resto de tus estilos */
+
+
+.post img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userInfo img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}

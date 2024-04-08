@@ -1,0 +1,34 @@
+/* NavBar.module.css */
+.navbar {
+  background-color: #cf3dff; /* Color morado */
+  color: white;
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos hacia la derecha */
+  align-items: center;
+  padding: 10px 20px; /* Añade más espacio alrededor del texto */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Asegura que el NavBar esté por encima de otros elementos */
+  width: 100%; /* Ajusta el ancho al 100% */
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Alinea los elementos horizontalmente */
+}
+
+.navbar li {
+  margin-left: 2  0px; /* Añade espacio entre los elementos del NavBar */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px; /* Espacio entre las palabras */
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
